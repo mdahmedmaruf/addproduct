@@ -18,7 +18,7 @@ const Courses = (props) => {
         {courses.map((course, idx) => (
             <div key={idx} className="courses">
                 <div className="single-courses">    
-                    <img src={course.img} />
+                    <img src={course.img} alt={course.img} />
                     <div className="course-content">
                     <h4>{course.name}</h4>
                     <p>£{course.cost}</p>

@@ -8,9 +8,9 @@ const Courses = (props) => {
     const [courses] = useState(fakeData);
     //const {img, cost, instructor, totalEnrolled, lessons} = props.course;
     const addToCart = props.addToCart;
-    const cart = props.cart;
-    const removeFromCart = props.removeFromCart;
-    const totalCost = props.totalCost;
+    //const cart = props.cart;
+    //const removeFromCart = props.removeFromCart;
+    //const totalCost = props.totalCost;
 
     return (
         <>
